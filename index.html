@@ -22,12 +22,17 @@
                     <a href="#" class="logo">
                         <img src="./assets/images/T2.svg" alt="logo" />
                     </a>
-                    <div class="all-other">
+                    <div class="all-other" id="navMenu">
                         <a href="#" class="nav">Home</a>
                         <a href="#" class="nav">About</a>
                         <a href="#" class="nav">Event</a>
                         <a href="#" class="nav">Schedule</a>
                         <a href="#" class="nav">Contact</a>
+                    </div>
+                    <div class="burger-menu" onclick="toggleMenu()">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
                     </div>
                 </section> <!-- .all-in-header -->
             </section> <!-- .wrapper ended -->
@@ -169,11 +174,22 @@
                     <h2>Contact Us</h2>
                     <div class="all-form">
                         <form action="">
-                            
+
                         </form>
                     </div>
                 </section>  <!-- .wrapper ended -->
             </section> <!-- #contact ended -->
         </footer>
+
+        <script>
+            function toggleMenu() {
+                var navMenu = document.getElementById('navMenu');
+                var burgerMenu = document.querySelector('.burger-menu');
+        
+                navMenu.classList.toggle('show');
+                burgerMenu.classList.toggle('cross');
+            }
+        </script>
+        
     </body>
 </html>
