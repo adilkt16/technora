@@ -46,12 +46,16 @@
             } //ul.first-part ended
         } //div.for-centering ended
         h6 {
-            margin-top: 40px;
+            margin-top: 20px;
             font-size: 24px;
             font-weight: 700;
         }
         p.event-detail {
             margin: 10px 0;
+        }
+        p.comm-detail {
+            font-size: 20px;
+            span {}
         }
         div.each-rules {
             h6 {

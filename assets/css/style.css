@@ -225,12 +225,15 @@ header section.all-in-header div.all-other a.nav:last-child {
   font-weight: 600;
 }
 #each-event div.main-event-section h6 {
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 24px;
   font-weight: 700;
 }
 #each-event div.main-event-section p.event-detail {
   margin: 10px 0;
+}
+#each-event div.main-event-section p.comm-detail {
+  font-size: 20px;
 }
 #each-event div.main-event-section div.each-rules h6 {
   margin-bottom: 20px;
