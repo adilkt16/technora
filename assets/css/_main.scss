@@ -283,6 +283,7 @@ footer {
             padding: 40px;
             border: 1px solid #ccc;
             border-radius: 20px;
+            margin: 0 40px;
             div.left-contact {
                 a {
                     display: flex;
@@ -305,6 +306,8 @@ footer {
             div.right-contact {
                 div.map-full {
                     iframe {
+                        width: 500px;
+                        height: 350px;
                         border-radius: 20px;
                         opacity: 0.6;
                     }
@@ -328,7 +331,7 @@ section.bottom-event {
     border: 1px solid #ccc;
     border-radius: 20px;
     padding: 20px;
-    margin-top: 50px;
+    margin: 50px 40px 0 40px;
     opacity: 0.8;
     a {
         font-weight: 500;

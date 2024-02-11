@@ -13,6 +13,17 @@
     #events section.event-section {
         margin: 0 100px 0;
     }
+
+    //rule-timing
+    #rule-timing {
+        padding: 50px 0 100px;
+        margin: 0 100px;
+    }
+
+    //contact
+    #contact h2 {
+        text-align: center;
+    }
 }
 
 
@@ -42,6 +53,17 @@
     #events section.event-section ul li div.group-section a.register {
         font-size: 14px;
         padding: 8px 24px;
+    }
+
+    //rule-timing
+    #rule-timing section.timing div.all-timing ul.times-only {
+        width: 33%;
+    }
+
+    //contact
+    footer #contact section.both-contact div.right-contact div.map-full iframe {
+        width: 400px;
+        height: 280px;
     }
 }
 
@@ -83,6 +105,36 @@
     }
     #events section.event-section {
         margin: 0 60px 0;
+    }
+
+    //rule-timing
+    #rule-timing h3 {
+        font-size: 24px;
+    }
+    #rule-timing section.rules div.all-rules h4 {
+        font-size: 20px;
+    }
+    #rule-timing section.rules div.all-rules p.each-rule {
+        font-size: 16px;
+    }
+    #rule-timing section.timing div.all-timing ul.times-only li h5 {
+        font-size: 18px;
+    }
+    #rule-timing section.timing div.all-timing ul.times-only li p.each-event {
+        font-size: 16px;
+    }
+    
+    //contact 
+    footer #contact section.both-contact div.right-contact div.map-full iframe {
+        width: auto;
+    }
+    section.bottom-event div.for-centering-2 div.con-icon {
+        width: 25px;
+    }
+    section.bottom-event a {
+        &:last-child{
+            // margin-right: 0;
+        }
     }
 }
 
@@ -149,6 +201,37 @@
     #about ul li h2 {
         margin: 20px 0 20px 0;
     }
+
+    //rule-timing
+    #rule-timing section.timing div.all-timing {
+        padding: 30px 30px;
+    }
+    #rule-timing h3 {
+        font-size: 22px;
+    }
+    #rule-timing section.rules div.all-rules h4 {
+        font-size: 18px;
+    }
+    #rule-timing section.rules div.all-rules p.each-rule {
+        font-size: 15px;
+    }
+    #rule-timing section.timing div.all-timing ul.times-only li h5 {
+        font-size: 16px;
+    }
+    #rule-timing section.timing div.all-timing ul.times-only li p.each-event {
+        font-size: 15px;
+    }
+
+    //contact
+    footer #contact section.both-contact {
+        margin: 0 100px;
+        flex-wrap: wrap;
+    }
+    footer #contact section.both-contact div.right-contact {
+        width: auto;
+        margin:  0 auto;
+        display: block;
+    }
 }
 
 
@@ -172,6 +255,37 @@
     #events section.event-section {
         margin: 0 20px 0;
     }
+
+    //rule-timing
+    #rule-timing {
+        margin: 0px 30px;
+    }
+
+    //contact
+    footer #contact section.both-contact {
+        margin: 0 20px;
+    }
+    footer #contact section.both-contact div.left-contact {
+        width: 100%;
+    }
+
+    //contact
+    footer #contact h2 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    section.bottom-event a {
+        font-size: 15px;
+    }
+    section.bottom-event a {
+        margin-right: 20px;
+    }
+
+    //done by
+    p.developed {
+        padding: 0px 0 10px;
+        font-size: 14px;
+    }
 }
 
 
@@ -192,6 +306,52 @@
     }
     #events section.event-section {
         margin: 0 10px 0;
+    }
+
+    //rule-timing
+    #rule-timing h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #rule-timing section.rules div.all-rules h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    #rule-timing section.rules div.all-rules p.each-rule {
+        font-size: 14px;
+    }
+    #rule-timing section.rules div.all-rules p.each-rule span {
+        margin-right: 4px;
+    }
+    #rule-timing section.rules {
+        margin-bottom: 30px;
+    }
+    #rule-timing section.timing div.all-timing ul.times-only {
+        width: 50%;
+    }
+    #rule-timing section.timing div.all-timing {
+        padding: 20px 20px;
+    }
+    #rule-timing section.timing div.all-timing ul.times-only li p.each-event {
+        font-size: 14px;
+    }
+
+    //contact
+    footer #contact section.both-contact div.right-contact div.map-full iframe {
+        width: 260px;
+    }
+    footer #contact h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    // section.bottom-event div.for-centering-2 div.con-icon {
+    //     width: 20px;
+    // }
+    section.bottom-event div.for-centering-2 {
+        flex-wrap: wrap;
+    }
+    section.bottom-event div.for-centering-2 div.event-call {
+        margin-bottom: 10px;
     }
 }
 
@@ -216,9 +376,55 @@
         width: 300px;
     }
 
+    //about
+    #about ul li p {
+        font-size: 14px;
+    }
+    #about ul li h2 {
+        font-size: 24px;
+    }
+
     //event
     #events section.event-section ul li {
         width: 100%;
         margin: 0 0 30px 0;
+    }
+
+    //rule-timing
+    #rule-timing section.timing div.all-timing {
+        padding: 12px;
+    }
+    #rule-timing h3 {
+        font-size: 18px;
+    }
+    #rule-timing section.rules div.all-rules p.each-rule {
+        font-size: 13px;
+    }
+    #rule-timing section.timing div.all-timing ul.times-only li h5 {
+        font-size: 15px;
+    }
+    #rule-timing section.timing div.all-timing ul.times-only li p.each-event {
+        font-size: 13px;
+    }
+
+    //contact
+    footer #contact section.both-contact {
+        padding: 20px;
+    }
+    footer #contact section.both-contact div.right-contact div.map-full iframe {
+        width: 230px;
+    }
+    footer #contact section.both-contact div.left-contact a div.call-contact {
+        font-size: 15px;
+    }
+    footer #contact h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    //done by
+    p.developed {
+        padding: 0px 0 10px;
+        font-size: 13px;
     }
 }
