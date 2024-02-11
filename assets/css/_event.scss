@@ -1,0 +1,106 @@
+
+
+#each-event {
+    // padding: 100px 0;
+    padding: 50px 0;
+    section.wrapper {}
+    h3 {
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    div.main-event-section {
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        padding: 40px 100px;
+        div.for-centering {
+            display: block;
+            margin: 0 auto;
+            width: fit-content;
+            text-align: center;
+            ul.first-part {
+                display:flex;
+                align-items: center;
+                li {
+                    width: auto;
+                    display: block;
+                    // margin:  0 auto;
+                    div.single-photo {
+                        width: 300px;
+                        margin-right: 40px;
+                        img {
+                            border-radius: 20px;
+                        }
+                    }
+                    h5 {
+                        font-weight: bold;
+                        font-size: 24px;
+                    }
+                    h5.first {}
+                    h5.second {}
+                    a.register {
+                        font-weight: 600;
+                    }
+                }
+            } //ul.first-part ended
+        } //div.for-centering ended
+        h6 {
+            margin-top: 40px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        p.event-detail {
+            margin: 10px 0;
+        }
+        div.each-rules {
+            h6 {
+                margin-bottom: 20px;
+            }
+            p.each-rule {
+                font-size: 18px;
+                span {
+                    margin-right: 10px;
+                }
+            }
+        }
+    } //div.main-event-section ended 
+    section.bottom-event {
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        padding: 20px;
+        margin-top: 50px;
+        opacity: 0.8;
+        a {
+            font-weight: 500;
+            margin-right: 80px;
+        }
+        div.for-centering-2 {
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+            width: fit-content;
+            div.con-icon {
+                margin-right: 6px;
+                width: 30px;
+                display: block;
+                img {}
+            }
+            div.event-call {
+                display: flex;
+                align-items: center;
+                div {
+                    img {}
+                }
+            }
+            div.event-whatsapp {
+                display: flex;
+                align-items: center;
+                div {
+                    img {}
+                }
+            }
+        }
+    }
+} //#each-event ended
+

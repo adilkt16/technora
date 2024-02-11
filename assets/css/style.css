@@ -181,6 +181,97 @@ header section.all-in-header div.all-other a.nav:last-child {
   font-size: 18px;
 }
 
+#each-event {
+  padding: 50px 0;
+}
+#each-event h3 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#each-event div.main-event-section {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 40px 100px;
+}
+#each-event div.main-event-section div.for-centering {
+  display: block;
+  margin: 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+}
+#each-event div.main-event-section div.for-centering ul.first-part {
+  display: flex;
+  align-items: center;
+}
+#each-event div.main-event-section div.for-centering ul.first-part li {
+  width: auto;
+  display: block;
+}
+#each-event div.main-event-section div.for-centering ul.first-part li div.single-photo {
+  width: 300px;
+  margin-right: 40px;
+}
+#each-event div.main-event-section div.for-centering ul.first-part li div.single-photo img {
+  border-radius: 20px;
+}
+#each-event div.main-event-section div.for-centering ul.first-part li h5 {
+  font-weight: bold;
+  font-size: 24px;
+}
+#each-event div.main-event-section div.for-centering ul.first-part li a.register {
+  font-weight: 600;
+}
+#each-event div.main-event-section h6 {
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 700;
+}
+#each-event div.main-event-section p.event-detail {
+  margin: 10px 0;
+}
+#each-event div.main-event-section div.each-rules h6 {
+  margin-bottom: 20px;
+}
+#each-event div.main-event-section div.each-rules p.each-rule {
+  font-size: 18px;
+}
+#each-event div.main-event-section div.each-rules p.each-rule span {
+  margin-right: 10px;
+}
+#each-event section.bottom-event {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 50px;
+  opacity: 0.8;
+}
+#each-event section.bottom-event a {
+  font-weight: 500;
+  margin-right: 80px;
+}
+#each-event section.bottom-event div.for-centering-2 {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#each-event section.bottom-event div.for-centering-2 div.con-icon {
+  margin-right: 6px;
+  width: 30px;
+  display: block;
+}
+#each-event section.bottom-event div.for-centering-2 div.event-call {
+  display: flex;
+  align-items: center;
+}
+#each-event section.bottom-event div.for-centering-2 div.event-whatsapp {
+  display: flex;
+  align-items: center;
+}
 * {
   margin: 0;
   padding: 0;
