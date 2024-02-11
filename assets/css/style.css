@@ -217,36 +217,78 @@ header section.all-in-header div.all-other a.nav:last-child {
   font-size: 18px;
 }
 
-@media (min-width: 769px) {
-  .all-other {
-    display: flex;
-  }
-  .burger-menu {
-    display: none;
-  }
+footer #contact {
+  padding: 0 0 20px 0;
 }
-@media (max-width: 768px) {
-  .all-in-header #navMenu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-  }
-  .all-in-header #navMenu.show {
-    display: flex;
-  }
-  .all-in-header #navMenu .nav {
-    color: #333;
-    margin: 10px 20px;
-  }
-  .all-in-header .burger-menu {
-    display: flex;
-  }
+footer #contact h2 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+footer #contact section.both-contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  align-items: center;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+footer #contact section.both-contact div.left-contact a {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+footer #contact section.both-contact div.left-contact a div.call-contact {
+  margin-right: 10px;
+}
+footer #contact section.both-contact div.right-contact div.map-full iframe {
+  border-radius: 20px;
+  opacity: 0.6;
+}
+footer #contact section.bottom-event {
+  opacity: 0.8;
+}
+
+p.developed {
+  text-align: center;
+  opacity: 0.5;
+  padding: 10px 0;
+}
+
+section.bottom-event {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 50px;
+  opacity: 0.8;
+}
+section.bottom-event a {
+  font-weight: 500;
+  margin-right: 80px;
+}
+section.bottom-event div.for-centering-2 {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+section.bottom-event div.for-centering-2 div.con-icon {
+  margin-right: 6px;
+  width: 30px;
+  display: block;
+}
+section.bottom-event div.for-centering-2 div.event-call {
+  display: flex;
+  align-items: center;
+}
+section.bottom-event div.for-centering-2 div.event-whatsapp {
+  display: flex;
+  align-items: center;
 }
 #each-event {
   padding: 50px 0;
@@ -341,6 +383,52 @@ header section.all-in-header div.all-other a.nav:last-child {
 #each-event section.bottom-event div.for-centering-2 div.event-whatsapp {
   display: flex;
   align-items: center;
+}
+@media all and (max-width: 1200px) {
+  section.wrapper {
+    max-width: 860px;
+  }
+}
+@media all and (max-width: 980px) {
+  section.wrapper {
+    max-width: 800px;
+  }
+}
+@media all and (max-width: 860px) {
+  section.wrapper {
+    max-width: 720px;
+  }
+}
+@media (min-width: 769px) {
+  .all-other {
+    display: flex;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .all-in-header #navMenu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  .all-in-header #navMenu.show {
+    display: flex;
+  }
+  .all-in-header #navMenu .nav {
+    color: #333;
+    margin: 10px 20px;
+  }
+  .all-in-header .burger-menu {
+    display: flex;
+  }
 }
 * {
   margin: 0;

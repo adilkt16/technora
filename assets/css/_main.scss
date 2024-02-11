@@ -14,7 +14,8 @@ section.wrapper {
 
 header {
     padding: 10px 0;
-    section.wrapper {}
+    section.wrapper {
+    }
     section.all-in-header {
         display: flex;
         align-items: center;
@@ -265,49 +266,98 @@ header {
 
 
 
+footer {
+    #contact {
+        padding: 0 0 20px 0;
+        section.wrapper {}
+        h2 {
+            font-weight: 600;
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+        section.both-contact {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 30px;
+            align-items: center;
+            padding: 40px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            div.left-contact {
+                a {
+                    display: flex;
+                    border: 1px solid #ccc;
+                    padding: 10px;
+                    border-radius: 10px;
+                    margin-bottom: 20px;
+                    opacity: 0.8;
+                    div.call-contact {
+                        margin-right: 10px;
+                        img {}
+                    }
+                    div.call-detail {
+                        p {}
+                        p.name {}
+                        p.number {}
+                    }
+                }
+            } //div.left-contact ended
+            div.right-contact {
+                div.map-full {
+                    iframe {
+                        border-radius: 20px;
+                        opacity: 0.6;
+                    }
+                }
+            } //div.right-contact ended
+        } //section.both-contact ended
+        section.bottom-event {
+            opacity: 0.8;
+        }
+    } //#contact ended
+} //footer ended
 
-
-
-
-
-///MAIN RESPONSIVE
-
-@media (min-width: 769px) {
-    .all-other {
-        display: flex;  // Set display to flex for larger screens
-    }
-
-    .burger-menu {
-        display: none;  // Hide burger menu for larger screens
-    }
+p.developed {
+    text-align: center;
+    opacity: 0.5;
+    padding: 10px 0;
 }
 
 
-@media (max-width: 768px) {
-    .all-in-header {
-        #navMenu {
-            display: none;
-            flex-direction: column;
-            position: absolute;
-            top: 60px;
-            left: 0;
-            width: 100%;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            z-index: 1;
-
-            &.show {
-                display: flex;
-            }
-
-            .nav {
-                color: #333;
-                margin: 10px 20px;
+section.bottom-event {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    opacity: 0.8;
+    a {
+        font-weight: 500;
+        margin-right: 80px;
+    }
+    div.for-centering-2 {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        width: fit-content;
+        div.con-icon {
+            margin-right: 6px;
+            width: 30px;
+            display: block;
+            img {}
+        }
+        div.event-call {
+            display: flex;
+            align-items: center;
+            div {
+                img {}
             }
         }
-
-        .burger-menu {
+        div.event-whatsapp {
             display: flex;
+            align-items: center;
+            div {
+                img {}
+            }
         }
     }
 }
