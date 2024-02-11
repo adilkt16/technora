@@ -295,6 +295,7 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
 }
 #each-event {
   padding: 50px 0;
+  margin: 0 100px;
 }
 #each-event h3 {
   font-size: 28px;
@@ -386,6 +387,109 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
 #each-event section.bottom-event div.for-centering-2 div.event-whatsapp {
   display: flex;
   align-items: center;
+}
+@media all and (max-width: 980px) {
+  #each-event div.main-event-section {
+    padding: 40px 60px;
+  }
+}
+@media all and (max-width: 860px) {
+  #each-event {
+    padding: 50px 0;
+    margin: 0 50px;
+  }
+}
+@media all and (max-width: 768px) {
+  #each-event div.main-event-section div.for-centering ul.first-part {
+    flex-wrap: wrap;
+  }
+  #each-event div.main-event-section div.for-centering ul.first-part li {
+    margin: 0 auto;
+    width: 100%;
+  }
+  #each-event div.main-event-section div.for-centering ul.first-part li div.single-photo {
+    margin: 0 auto 20px;
+  }
+  #each-event div.main-event-section div.for-centering ul.first-part li h5 {
+    font-size: 20px;
+  }
+  #each-event div.main-event-section h6 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  #each-event div.main-event-section p.comm-detail {
+    font-size: 18px;
+  }
+  #each-event div.main-event-section div.each-rules p.each-rule {
+    font-size: 16px;
+  }
+  #each-event section.bottom-event a {
+    margin-right: 30px;
+  }
+}
+@media all and (max-width: 640px) {
+  #each-event div.main-event-section {
+    padding: 40px 40px;
+  }
+}
+@media all and (max-width: 480px) {
+  #each-event div.main-event-section {
+    padding: 40px 20px;
+  }
+  #each-event {
+    padding: 50px 0;
+    margin: 0 20px;
+  }
+  #each-event div.main-event-section div.for-centering ul.first-part li div.single-photo {
+    width: 280px;
+  }
+  #each-event h3 {
+    font-size: 24px;
+  }
+  #each-event div.main-event-section div.for-centering ul.first-part li h5 {
+    font-size: 18px;
+  }
+  #each-event div.main-event-section h6 {
+    font-size: 18px;
+  }
+  #each-event div.main-event-section p.event-detail {
+    font-size: 15px;
+  }
+  #each-event div.main-event-section p.comm-detail {
+    font-size: 16px;
+  }
+  #each-event div.main-event-section div.each-rules p.each-rule {
+    font-size: 15px;
+  }
+}
+@media all and (max-width: 360px) {
+  #each-event div.main-event-section div.for-centering ul.first-part li div.single-photo {
+    width: 240px;
+  }
+  #each-event div.main-event-section {
+    padding: 30px 20px;
+  }
+  #each-event div.main-event-section div.for-centering ul.first-part li a.register {
+    margin-top: 20px;
+  }
+  #each-event div.main-event-section h6 {
+    font-size: 16px;
+  }
+  #each-event div.main-event-section p.event-detail {
+    font-size: 14px;
+  }
+  #each-event div.main-event-section p.event-detail {
+    font-size: 13px;
+  }
+  #each-event div.main-event-section p.comm-detail {
+    font-size: 15px;
+  }
+  #each-event div.main-event-section div.each-rules h6 {
+    margin-bottom: 10px;
+  }
+  section.bottom-event {
+    margin: 50px 20px 0 20px;
+  }
 }
 @media all and (max-width: 1200px) {
   header section.wrapper {
