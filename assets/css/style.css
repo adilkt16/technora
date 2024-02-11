@@ -84,6 +84,52 @@ header section.all-in-header div.all-other a.nav:last-child {
   width: 55%;
 }
 
+#events {
+  padding: 100px 0;
+}
+#events h2 {
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#events section.event-section ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#events section.event-section ul li {
+  width: 23%;
+  margin: 0 20px 20px 0;
+}
+#events section.event-section ul li div.group-section {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+#events section.event-section ul li div.group-section h5 {
+  font-weight: 700;
+  margin: 10px 0;
+}
+#events section.event-section ul li div.group-section h5.event-name {
+  font-size: 20px;
+}
+#events section.event-section ul li div.group-section h5.event-reg {
+  font-size: 18px;
+}
+#events section.event-section ul li div.group-section a.register {
+  margin-top: 0;
+}
+#events section.event-section a.more-button {
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 30px auto 0;
+  display: block;
+}
+
 * {
   margin: 0;
   padding: 0;
