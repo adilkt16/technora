@@ -60,17 +60,17 @@ header section.all-in-header div.all-other a.nav:last-child {
   width: 25px;
   height: 3px;
   background-color: #333;
-  margin: 5px 0;
-  transition: transform 0.3s;
+  margin: 5px 0 0;
+  transition: transform 0.5s;
 }
 .burger-menu.cross .bar:nth-child(1) {
-  transform: rotate(-60deg) translate(-14px, 9px);
+  transform: rotate(-60deg) translate(-8px, 9px);
 }
 .burger-menu.cross .bar:nth-child(2) {
   opacity: 0;
 }
 .burger-menu.cross .bar:nth-child(3) {
-  transform: rotate(45deg) translate(-5px, -6px);
+  transform: rotate(45deg) translate(0px, -6px);
 }
 
 #spotlight {
@@ -385,18 +385,70 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
   align-items: center;
 }
 @media all and (max-width: 1200px) {
-  section.wrapper {
+  header section.wrapper {
     max-width: 860px;
+  }
+  #events section.event-section ul li {
+    width: 30%;
+    margin: 0 20px 20px 0;
+  }
+  #events section.event-section {
+    margin: 0 100px 0;
   }
 }
 @media all and (max-width: 980px) {
-  section.wrapper {
+  header section.wrapper {
     max-width: 800px;
+  }
+  #about ul li div.about-image {
+    width: 320px;
+  }
+  #about ul li p {
+    width: 80%;
+  }
+  #about ul li h2 {
+    font-size: 30px;
+  }
+  #events section.event-section ul li div.group-section h5.event-name {
+    font-size: 16px;
+  }
+  #events section.event-section ul li div.group-section h5.event-reg {
+    font-size: 16px;
+  }
+  #events section.event-section ul li div.group-section a.register {
+    font-size: 14px;
+    padding: 8px 24px;
   }
 }
 @media all and (max-width: 860px) {
-  section.wrapper {
+  header section.wrapper {
     max-width: 720px;
+  }
+  #spotlight {
+    padding: 60px 0;
+  }
+  #about ul li div.about-image {
+    width: 280px;
+  }
+  #about ul li p {
+    font-size: 15px;
+  }
+  #events section.event-section ul li {
+    width: 29%;
+  }
+  #events section.event-section ul li div.group-section h5 {
+    font-size: 14px;
+    margin: 4px 0;
+  }
+  #events section.event-section ul li div.group-section h5.event-name {
+    font-size: 14px;
+  }
+  #events section.event-section ul li div.group-section a.register {
+    font-size: 13px;
+    padding: 6px 18px;
+  }
+  #events section.event-section {
+    margin: 0 60px 0;
   }
 }
 @media (min-width: 769px) {
@@ -415,7 +467,7 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-image: linear-gradient(to right top, #a327cc, #ad2dc9, #b534c6, #bd3bc3, #c442c0, #be4cc6, #b856cc, #b25ed1, #9a69dc, #7f73e5, #5e7ce9, #2f83eb);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1;
   }
@@ -423,11 +475,79 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
     display: flex;
   }
   .all-in-header #navMenu .nav {
-    color: #333;
+    color: #fff;
     margin: 10px 20px;
   }
   .all-in-header .burger-menu {
     display: flex;
+  }
+  header section.wrapper {
+    max-width: 600px;
+  }
+  #about ul {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  #about ul li.ab-content {
+    width: 100%;
+  }
+  #about ul li.ab-image {
+    width: 100%;
+  }
+  #about ul li p {
+    margin: 0 auto;
+  }
+  #about ul li h2 {
+    margin: 20px 0 20px 0;
+  }
+}
+@media all and (max-width: 640px) {
+  header section.all-in-header a.logo {
+    width: 80px;
+  }
+  header section.wrapper {
+    max-width: 450px;
+  }
+  #spotlight div.main-image {
+    width: 400px;
+  }
+  #events section.event-section ul li {
+    width: 44%;
+  }
+  #events section.event-section {
+    margin: 0 20px 0;
+  }
+}
+@media all and (max-width: 480px) {
+  header section.wrapper {
+    max-width: 340px;
+  }
+  #spotlight div.main-image {
+    width: 320px;
+  }
+  #events section.event-section ul li {
+    width: 44%;
+  }
+  #events section.event-section {
+    margin: 0 10px 0;
+  }
+}
+@media all and (max-width: 360px) {
+  a.register {
+    font-size: 13px;
+  }
+  header section.wrapper {
+    max-width: 300px;
+  }
+  #spotlight h3 {
+    font-size: 14px;
+  }
+  #spotlight div.main-image {
+    width: 300px;
+  }
+  #events section.event-section ul li {
+    width: 100%;
+    margin: 0 0 30px 0;
   }
 }
 * {
