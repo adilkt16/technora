@@ -1,0 +1,101 @@
+//COMMON
+a.register {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+section.wrapper {
+    display: block;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+
+header {
+    padding: 10px 0;
+    section.wrapper {}
+    section.all-in-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a.logo {
+            width: 120px;
+            display: block;
+            img {}
+        }
+        div.all-other {
+            // width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            a.nav {
+                margin-right: 30px;
+                font-size: 16px;
+                font-weight: 500;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+
+#spotlight {
+    padding: 100px 0;
+    text-align: center;
+    section.wrapper {}
+    div.main-image {
+        width: 450px;
+        display: block;
+        margin: 0 auto 30px;
+        img {
+            margin: 0 auto;
+        }
+    }
+    h3 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    a.register {}
+} //#Spotlight ended
+
+
+#about {
+    padding: 30px 0;
+    section.wrapper {}
+    h2 {
+        // font-size: 28px;
+        font-weight: 600;
+    }
+    ul {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        li {
+            // width: 48%;
+            div.about-image {
+                width: 400px;
+                margin: 0 auto;
+                img {
+                    margin: 0 auto;
+                    border-radius: 20px;
+                }
+            }
+            h2 {
+                margin-bottom: 30px;
+                font-size: 36px;
+            }
+            p {}
+            a.register {}
+        }
+        li.ab-image {
+            width: 45%;
+        }
+        li.ab-content {
+            width: 55%;
+        }
+    }
+}

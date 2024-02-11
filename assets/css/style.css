@@ -1,0 +1,124 @@
+a.register {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+section.wrapper {
+  display: block;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+header {
+  padding: 10px 0;
+}
+header section.all-in-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header section.all-in-header a.logo {
+  width: 120px;
+  display: block;
+}
+header section.all-in-header div.all-other {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header section.all-in-header div.all-other a.nav {
+  margin-right: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+header section.all-in-header div.all-other a.nav:last-child {
+  margin-right: 0;
+}
+
+#spotlight {
+  padding: 100px 0;
+  text-align: center;
+}
+#spotlight div.main-image {
+  width: 450px;
+  display: block;
+  margin: 0 auto 30px;
+}
+#spotlight div.main-image img {
+  margin: 0 auto;
+}
+#spotlight h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+#about {
+  padding: 30px 0;
+}
+#about h2 {
+  font-weight: 600;
+}
+#about ul {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#about ul li div.about-image {
+  width: 400px;
+  margin: 0 auto;
+}
+#about ul li div.about-image img {
+  margin: 0 auto;
+  border-radius: 20px;
+}
+#about ul li h2 {
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+#about ul li.ab-image {
+  width: 45%;
+}
+#about ul li.ab-content {
+  width: 55%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+body {
+  background-image: linear-gradient(to right top, #a327cc, #ad2dc9, #b534c6, #bd3bc3, #c442c0, #be4cc6, #b856cc, #b25ed1, #9a69dc, #7f73e5, #5e7ce9, #2f83eb);
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}/*# sourceMappingURL=style.css.map */
