@@ -117,7 +117,7 @@ header section.all-in-header div.all-other a.nav:hover {
 }
 #about ul li div.about-image img {
   margin: 0 auto;
-  border-radius: 20px;
+  border-bottom: 10px solid #fff;
 }
 #about ul li h2 {
   margin-bottom: 30px;
