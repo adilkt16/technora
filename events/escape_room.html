@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Escape Room | TechNora</title>
+        <link rel="stylesheet" href="../assets/css/style.css" />
+
+        <link rel="shortcut icon" href="../assets/images/T2logocropped.png" type="image/x-icon">
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <section class="wrapper">
+                <section class="all-in-header">
+                    <a href="../index.html" class="logo">
+                        <img src="../assets/images/T2.svg" alt="logo" />
+                    </a>
+                    <div class="all-other" id="navMenu">
+                        <a href="../index.html" class="nav">Home</a>
+                        <a href="../index.html#about" class="nav">About</a>
+                        <a href="../index.html#events" class="nav">Event</a>
+                        <a href="../index.html#rule-timing" class="nav">Schedule</a>
+                        <a href="../index.html#contact" class="nav">Contact</a>
+                    </div>
+                    <div class="burger-menu" onclick="toggleMenu()">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </section> <!-- .all-in-header -->
+            </section> <!-- .wrapper ended -->
+        </header>
+        <section id="each-event">
+            <section class="wrapper">
+                <h3 class="single-name">ESCAPE ROOM</h3>
+                <div class="main-event-section">
+                    <div class="for-centering">
+                        <ul class="first-part">
+                            <li>
+                                <div class="single-photo">
+                                    <img src="../assets/images/events/escaperoom.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="first">First : 2000 ₹</h5>
+                                <h5 class="second">Second : 1000 ₹</h5>
+                                <a href="#" class="register">Register : 150 ₹</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h6 class="event-head">Description</h6>
+                    <p class="event-detail">An Escape room is an interactive adventure game where participants
+                        work to solve a series of puzzles and challenges within a set timeframe
+                        to “ESCAPE” from a locked room.This immersive experience promotes
+                        problem-solving and critical thinking skills in a themed environment
+                        Creating a Thrilling and engaging activity for participants.</p>
+                    <p class="date comm-detail"><span>Date: </span>20 / 2 /2024</p>
+                    <p class="time comm-detail"><span>Time: </span>09:30am - 09:30pm (12 hrs)</p>
+                    <div class="each-rules">
+                        <h6>Rules</h6>
+                        <p class="each-rule"><span>⚪️</span> Registration fee : (400 per team)</p>
+                        <p class="each-rule"><span>⚪️</span> Maximum of 4 per team</p>
+                        <p class="each-rule"><span>⚪️</span> Starts at 9:30 a.m of 20 th February 2024</p>
+                        <p class="each-rule"><span>⚪️</span> Duration : 12 hour</p>
+                        <p class="each-rule"><span>⚪️</span> Only college students will be selected and must bring their college IDs.</p>
+                        <p class="each-rule"><span>⚪️</span> Topics and instructions will be provided an hour before the Event starts.</p>
+                        <p class="each-rule"><span>⚪️</span> Participants must bring their own devices</p>
+                        <p class="each-rule"><span>⚪️</span> Food and Internet will be provided</p>
+                    </div>
+                </div> <!-- .main-event-section ended -->
+                <section class="bottom-event">
+                    <div class="for-centering-2">
+                        <div class="event-call">
+                            <div class="event-call-icon con-icon">
+                                <img src="../assets/images/call.png" alt="call" />
+                            </div>
+                            <a href="#">+91 9544261416</a>
+                        </div>
+                        <div class="event-whatsapp">
+                            <div class="event-whatsapp-icon con-icon">
+                                <img src="../assets/images/whatsapp.png" alt="whatsapp" />
+                            </div>
+                            <a href="#">+91 9544261416</a>
+                        </div>
+                    </div>
+                </section>
+            </section> <!-- .wrapper ended -->
+        </section> <!-- #each-event ended -->
+
+        <script>
+            function toggleMenu() {
+                var navMenu = document.getElementById('navMenu');
+                var burgerMenu = document.querySelector('.burger-menu');
+        
+                navMenu.classList.toggle('show');
+                burgerMenu.classList.toggle('cross');
+            }
+        </script>
+    </body>
+</html>

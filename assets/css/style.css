@@ -840,7 +840,7 @@ ol, ul {
 }
 
 body {
-  background-image: linear-gradient(to right top, #a327cc, #ad2dc9, #b534c6, #bd3bc3, #c442c0, #be4cc6, #b856cc, #b25ed1, #9a69dc, #7f73e5, #5e7ce9, #2f83eb);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(106, 0, 123) 51%, rgb(255, 0, 249) 100%);
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
   color: #fff;
