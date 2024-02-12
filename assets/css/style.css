@@ -4,6 +4,11 @@ a.register {
   border-radius: 50px;
   margin-top: 30px;
 }
+a.register:hover {
+  background-color: #fff;
+  color: #333;
+  transition: 0.3s;
+}
 
 section.wrapper {
   display: block;
@@ -35,6 +40,11 @@ header section.all-in-header div.all-other a.nav {
 }
 header section.all-in-header div.all-other a.nav:last-child {
   margin-right: 0;
+}
+header section.all-in-header div.all-other a.nav:hover {
+  border-bottom: 2px solid #000;
+  color: black;
+  transition: 0.3s;
 }
 
 .all-other {
@@ -243,6 +253,10 @@ footer #contact section.both-contact div.left-contact a {
   margin-bottom: 20px;
   opacity: 0.8;
 }
+footer #contact section.both-contact div.left-contact a:hover {
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(106, 0, 123) 51%, rgb(255, 0, 249) 100%);
+  transition: 0.5s linear;
+}
 footer #contact section.both-contact div.left-contact a div.call-contact {
   margin-right: 10px;
 }
@@ -260,6 +274,10 @@ p.developed {
   text-align: center;
   opacity: 0.5;
   padding: 10px 0;
+}
+p.developed a:hover {
+  color: #000;
+  opacity: 1;
 }
 
 section.bottom-event {
@@ -609,7 +627,7 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
     top: 60px;
     left: 0;
     width: 100%;
-    background-image: linear-gradient(to right top, #a327cc, #ad2dc9, #b534c6, #bd3bc3, #c442c0, #be4cc6, #b856cc, #b25ed1, #9a69dc, #7f73e5, #5e7ce9, #2f83eb);
+    background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(106, 0, 123) 51%, rgb(255, 0, 249) 100%);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1;
   }

@@ -160,7 +160,8 @@
             top: 60px;
             left: 0;
             width: 100%;
-            background-image: linear-gradient(to right top, #a327cc, #ad2dc9, #b534c6, #bd3bc3, #c442c0, #be4cc6, #b856cc, #b25ed1, #9a69dc, #7f73e5, #5e7ce9, #2f83eb);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(106,0,123,1) 51%, rgba(255,0,249,1) 100%);
+            // background-image: linear-gradient(to right top, #a327cc, #ad2dc9, #b534c6, #bd3bc3, #c442c0, #be4cc6, #b856cc, #b25ed1, #9a69dc, #7f73e5, #5e7ce9, #2f83eb);
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             z-index: 1;
 

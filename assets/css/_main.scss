@@ -4,6 +4,11 @@ a.register {
     padding: 10px 30px;
     border-radius: 50px;
     margin-top: 30px;
+    &:hover {
+        background-color: #fff;
+        color: #333;
+        transition: .3s;
+    }
 }
 section.wrapper {
     display: block;
@@ -37,10 +42,11 @@ header {
                 &:last-child {
                     margin-right: 0;
                 }
-                // &:hover {
-                //     border-bottom: 2px solid #000;
-                //     color: black;
-                // }
+                &:hover {
+                    border-bottom: 2px solid #000;
+                    color: black;
+                    transition: .3s;
+                }
             }
         }
     }
@@ -297,6 +303,11 @@ footer {
                     border-radius: 10px;
                     margin-bottom: 20px;
                     opacity: 0.8;
+
+                    &:hover {
+                        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(106,0,123,1) 51%, rgba(255,0,249,1) 100%);
+                        transition: .5s linear;
+                    }
                     div.call-contact {
                         margin-right: 10px;
                         img {}
@@ -329,6 +340,12 @@ p.developed {
     text-align: center;
     opacity: 0.5;
     padding: 10px 0;
+    a {
+        &:hover {
+            color: #000;
+            opacity: 1;
+        }
+    }
 }
 
 
