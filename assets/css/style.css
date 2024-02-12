@@ -1,3 +1,19 @@
+div.main-image img {
+  width: 28vw;
+  animation: floatimage 4s ease-in-out infinite;
+}
+
+@keyframes floatimage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(2.4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 a.register {
   border: 1px solid #fff;
   padding: 10px 30px;
