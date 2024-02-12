@@ -186,7 +186,9 @@ header {
                     padding: 20px ;
                     text-align: center;
                     div.event-image {
-                        img {}
+                        img {
+                            border-radius: 10px;
+                        }
                     }
                     h5 {
                         font-weight: 700;

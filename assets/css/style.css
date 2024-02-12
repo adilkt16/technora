@@ -155,6 +155,9 @@ header section.all-in-header div.all-other a.nav:hover {
   padding: 20px;
   text-align: center;
 }
+#events section.event-section ul li div.group-section div.event-image img {
+  border-radius: 10px;
+}
 #events section.event-section ul li div.group-section h5 {
   font-weight: 700;
   margin: 10px 0;
