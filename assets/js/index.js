@@ -1,3 +1,4 @@
+// navbar code
 function toggleMenu() {
     var navMenu = document.getElementById('navMenu');
     var burgerMenu = document.querySelector('.burger-menu');
@@ -6,6 +7,8 @@ function toggleMenu() {
     burgerMenu.classList.toggle('cross');
 }
 
+
+//spotlight animation
 ScrollReveal({
     reset: true,
     distance: "80px",
