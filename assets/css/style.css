@@ -393,6 +393,12 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
 #each-event div.main-event-section div.each-rules p.each-rule span {
   margin-right: 10px;
 }
+#each-event a.backing {
+  text-align: center;
+  display: table;
+  margin: 20px auto;
+  width: auto;
+}
 #each-event section.bottom-event {
   border: 1px solid #ccc;
   border-radius: 20px;
