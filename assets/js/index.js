@@ -16,11 +16,11 @@ ScrollReveal({
     delay: 200,
   });
   ScrollReveal().reveal(
-    ".home-content, .heading, .skills-heading,.login-heading",
+    ".for-h3, .heading, .skills-heading,.login-heading",
     { origin: "top" }
   );
-  ScrollReveal().reveal("div.main-image, .container img,.about-img,.skill-child:nth-child(2)", {
+  ScrollReveal().reveal("div.main-image ,.about-img,.skill-child:nth-child(2)", {
     origin: "bottom",
   });
-  ScrollReveal().reveal(".home-content h2", { origin: "left" });
-  ScrollReveal().reveal(".home-content h3", { origin: "right" });
+  ScrollReveal().reveal("h3.for-downing", { origin: "left" });
+  ScrollReveal().reveal("a.spot-button", { origin: "right" });
