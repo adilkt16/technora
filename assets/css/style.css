@@ -233,11 +233,12 @@ header section.all-in-header div.all-other a.nav:hover {
 }
 #rule-timing section.timing div.all-timing ul.times-only {
   width: 25%;
+  margin-bottom: 20px;
 }
 #rule-timing section.timing div.all-timing ul.times-only li h5 {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 #rule-timing section.timing div.all-timing ul.times-only li p.each-event {
   font-weight: 700;

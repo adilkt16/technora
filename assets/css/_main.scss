@@ -277,11 +277,12 @@ header {
             flex-wrap: wrap;
             ul.times-only {
                 width: 25%;
+                margin-bottom: 20px;
                 li {
                     h5 {
                         font-size: 20px;
                         font-weight: bold;
-                        margin-bottom: 20px;
+                        margin-bottom: 10px;
                     }
                     p.each-event {
                         font-weight: 700;
