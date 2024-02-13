@@ -1,5 +1,4 @@
 div.main-image img {
-  width: 28vw;
   animation: floatimage 4s ease-in-out infinite;
 }
 
