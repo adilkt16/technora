@@ -341,6 +341,17 @@ footer {
                         p.number {}
                     }
                 }
+                div.both-dept-logo {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    div.dept-logo {
+                        width: 60px;
+                        display: block;
+                        margin-right: 30px;
+                        img {}
+                    }
+                }
             } //div.left-contact ended
             div.right-contact {
                 div.map-full {

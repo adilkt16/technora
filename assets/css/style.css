@@ -279,6 +279,16 @@ footer #contact section.both-contact div.left-contact a:hover {
 footer #contact section.both-contact div.left-contact a div.call-contact {
   margin-right: 10px;
 }
+footer #contact section.both-contact div.left-contact div.both-dept-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+footer #contact section.both-contact div.left-contact div.both-dept-logo div.dept-logo {
+  width: 60px;
+  display: block;
+  margin-right: 30px;
+}
 footer #contact section.both-contact div.right-contact div.map-full iframe {
   width: 500px;
   height: 350px;
