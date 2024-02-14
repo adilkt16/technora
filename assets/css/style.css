@@ -149,6 +149,42 @@ header section.all-in-header div.all-other a.nav:hover {
   width: 55%;
 }
 
+#tech {
+  padding: 30px 0;
+  margin: 0 150px;
+}
+#tech h2 {
+  font-weight: 600;
+}
+#tech ul {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#tech ul li div.um-image {
+  width: 280px;
+  margin: 0 auto;
+}
+#tech ul li div.um-image img {
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 3px solid #fff;
+}
+#tech ul li h2 {
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+#tech ul li.um-image {
+  width: 45%;
+}
+#tech ul li.um-content {
+  width: 55%;
+}
+#tech ul div.none-image {
+  display: none;
+}
+
 #events {
   padding: 100px 0;
 }
@@ -580,6 +616,9 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
   #about ul li h2 {
     font-size: 30px;
   }
+  #tech {
+    margin: 0 50px;
+  }
   #events section.event-section ul li div.group-section h5.event-name {
     font-size: 16px;
   }
@@ -612,6 +651,12 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
     width: 280px;
   }
   #about ul li p {
+    font-size: 15px;
+  }
+  #tech ul li div.um-image {
+    width: 240px;
+  }
+  #tech ul li p {
     font-size: 15px;
   }
   #events section.event-section ul li {
@@ -702,6 +747,30 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
   #about ul li h2 {
     margin: 20px 0 20px 0;
   }
+  #tech ul {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  #tech ul li.um-image {
+    display: none;
+  }
+  #tech ul li div.none-image {
+    width: 180px;
+    margin: 20px auto;
+    display: block;
+  }
+  #tech ul li div.none-image img {
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 3px solid #fff;
+  }
+  #tech ul li.um-content {
+    width: 100%;
+  }
+  #tech ul li h2 {
+    margin-bottom: 0;
+    font-size: 30px;
+  }
   #rule-timing section.timing div.all-timing {
     padding: 30px 30px;
   }
@@ -779,6 +848,9 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
   }
   #spotlight div.main-image {
     width: 320px;
+  }
+  #tech {
+    margin: 0 20px;
   }
   #events section.event-section ul li {
     width: 44%;
