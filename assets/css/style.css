@@ -31,6 +31,10 @@ section.wrapper {
   max-width: 1100px;
 }
 
+header.safi-logo-header section.wrapper section.all-in-header a.logo {
+  width: 90px;
+  display: block;
+}
 header {
   padding: 10px 0;
 }
@@ -595,6 +599,9 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
   }
 }
 @media all and (max-width: 860px) {
+  header.safi-logo-header section.wrapper section.all-in-header a.logo {
+    width: 80px;
+  }
   header section.wrapper {
     max-width: 720px;
   }
@@ -724,6 +731,9 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
   }
 }
 @media all and (max-width: 640px) {
+  header.safi-logo-header section.wrapper section.all-in-header a.logo {
+    width: 70px;
+  }
   header section.all-in-header a.logo {
     width: 80px;
   }
@@ -819,6 +829,9 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
 @media all and (max-width: 360px) {
   a.register {
     font-size: 13px;
+  }
+  header.safi-logo-header section.wrapper section.all-in-header a.logo {
+    width: 70px;
   }
   header section.wrapper {
     max-width: 300px;

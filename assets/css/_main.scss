@@ -35,6 +35,17 @@ section.wrapper {
     max-width: 1100px;
 }
 
+header.safi-logo-header {
+    section.wrapper {
+        section.all-in-header {
+            a.logo {
+                width: 90px;
+                display: block;
+                img {}
+            }
+        }
+    }
+}
 
 header {
     padding: 10px 0;

@@ -71,6 +71,11 @@
 
 
 @media all and (max-width:860px){
+    //main only
+    header.safi-logo-header section.wrapper section.all-in-header a.logo {
+        width: 80px;
+    }
+
     header section.wrapper {
         max-width: 720px;
     }
@@ -241,6 +246,11 @@
 
 
 @media all and (max-width:640px){
+    //main only
+    header.safi-logo-header section.wrapper section.all-in-header a.logo {
+        width: 70px;
+    }
+
     header section.all-in-header a.logo {
         width: 80px;
     }
@@ -366,6 +376,11 @@
     //COMMOn
     a.register {
         font-size: 13px;
+    }
+
+    //main only
+    header.safi-logo-header section.wrapper section.all-in-header a.logo {
+        width: 70px;
     }
     
     //header
