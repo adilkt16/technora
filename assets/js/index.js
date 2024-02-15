@@ -27,15 +27,3 @@ ScrollReveal({
 
 
 
-
-      // Get the register link element
-      var registerLink = document.getElementById('DisLink');
-
-      // Add a click event listener to the register link
-      registerLink.addEventListener('click', function(event) {
-          // Prevent the default behavior of the link (page reload)
-          event.preventDefault();
-  
-          // Add your custom logic here, such as displaying a registration form or performing an action
-          // alert('Custom registration logic goes here');
-      });
