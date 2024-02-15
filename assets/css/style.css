@@ -433,6 +433,14 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
   font-size: 24px;
   font-weight: 700;
 }
+#each-event div.main-event-section h5 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+#each-event div.main-event-section h5 span {
+  font-size: 20px;
+}
 #each-event div.main-event-section p.event-detail {
   margin: 10px 0;
 }
