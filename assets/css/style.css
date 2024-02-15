@@ -175,6 +175,10 @@ header section.all-in-header div.all-other a.nav:hover {
   margin-bottom: 30px;
   font-size: 36px;
 }
+#tech ul li p.tech-time {
+  font-size: 20px;
+  margin: 10px 0 0;
+}
 #tech ul li.um-image {
   width: 45%;
 }
@@ -812,6 +816,9 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
   #spotlight div.main-image {
     width: 400px;
   }
+  #tech ul li p.tech-time {
+    font-size: 16px;
+  }
   #events section.event-section ul li {
     width: 44%;
   }
@@ -851,6 +858,9 @@ section.bottom-event div.for-centering-2 div.event-whatsapp {
   }
   #tech {
     margin: 0 20px;
+  }
+  #tech ul li p.tech-time {
+    font-size: 15px;
   }
   #events section.event-section ul li {
     width: 44%;

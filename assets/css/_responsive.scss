@@ -304,6 +304,11 @@
         width: 400px;
     }
 
+    //tech
+    #tech ul li p.tech-time {
+        font-size: 16px;
+    }
+
     //event
     #events section.event-section ul li {
         width: 44%;
@@ -359,6 +364,9 @@
     //#tech
     #tech {
         margin: 0 20px;
+    }
+    #tech ul li p.tech-time {
+        font-size: 15px;
     }
 
     //event
