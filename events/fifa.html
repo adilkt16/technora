@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FIFA | Technora 2.0 </title>
+        <link rel="stylesheet" href="../assets/css/style.css" />
+
+        <link rel="shortcut icon" href="../assets/images/T2logocropped.png" type="image/x-icon">
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <section class="wrapper">
+                <section class="all-in-header">
+                    <a href="../index.html" class="logo">
+                        <img src="../assets/images/T2.svg" alt="logo" />
+                    </a>
+                    <div class="all-other" id="navMenu">
+                        <a href="../index.html" class="nav">Home</a>
+                        <a href="../index.html#about" class="nav">About</a>
+                        <a href="../index.html#events" class="nav">Event</a>
+                        <a href="../index.html#rule-timing" class="nav">Schedule</a>
+                        <a href="../index.html#contact" class="nav">Contact</a>
+                    </div>
+                    <div class="burger-menu" onclick="toggleMenu()">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </section> <!-- .all-in-header -->
+            </section> <!-- .wrapper ended -->
+        </header>
+        <section id="each-event">
+            <section class="wrapper">
+                <h3 class="single-name">FIFA</h3>
+                <div class="main-event-section">
+                    <div class="for-centering">
+                        <ul class="first-part">
+                            <li>
+                                <div class="single-photo">
+                                    <img src="../assets/images/events/fifa.jpg" alt="FIFA" />
+                                </div>
+                            </li>
+                            <li>
+                                <h5 class="first">First : 2000 ₹</h5>
+                                <h5 class="second">Second : 1000 ₹</h5>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc1EogpWRubGplJBcEU_x-FxHEtkKKKEflnM_ZeHjNyPS-AJw/viewform" target="_blank" class="register">Register : 100 ₹</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h6 class="event-head">Description</h6>
+                    <p class="event-detail">
+                        Get ready for an epic offline FIFA tournament! Grab your friends for a knockout-style competition where players will battle it out on the virtual pitch to claim the title of the ultimate FIFA champion. It's a showdown of skills and strategy, promising intense moments and friendly rivalries. Who will emerge victorious in this gaming spectacle? Join us, and let the games begin!</p>
+                    <p class="date comm-detail"><span>Date: </span>20 / 2 /2024  </p>
+                    <p class="time comm-detail"><span>Time: </span>10:00</p>
+                    <div class="each-rules">
+                        <h6>Rules</h6>
+                        <p class="each-rule"><span>⚪️</span> Tournament type : Knockout </p>
+                        <p class="each-rule"><span>⚪️</span> Half Duration : 5 minute halves  </p>
+                        <p class="each-rule"><span>⚪️</span> If the game ends in draw then Shootout (until fourth round) </p>
+                        <p class="each-rule"><span>⚪️</span> Semi and finals will have extra time then shootout </p>
+                        <p class="each-rule"><span>⚪️</span> Difficulty: legendary  <br />
+                            Game speed: Normal <br />
+                            All other settings are default </p>
+                        <p class="each-rule"><span>⚪️</span> All teams will be available (special teams not allowed)</p>
+                        <p class="each-rule"><span>⚪️</span> Participants will not be forced to keep the same team all tournament long.</p>
+                        <p class="each-rule"><span>⚪️</span> Both players can choose same team if needed</p>
+                        <p class="each-rule"><span>⚪️</span> If a glitch/freeze occurs in the system game will be restarted with the same setting and game situation.</p>
+                    </div>
+                </div> <!-- .main-event-section ended -->
+                <a href="./all_event.html"  class="register backing">All Event</a>
+                <section class="bottom-event">
+                    <div class="for-centering-2">
+                        <div class="event-call">
+                            <div class="event-call-icon con-icon">
+                                <img src="../assets/images/call.png" alt="call" />
+                            </div>
+                            <a href="tel:+919567904686">+91 9567904686</a>
+                        </div>
+                        <div class="event-whatsapp">
+                            <div class="event-whatsapp-icon con-icon">
+                                <img src="../assets/images/whatsapp.png" alt="whatsapp" />
+                            </div>
+                            <a href="https://wa.me/+919567904686" target="_blank" >+91 9567904686</a>
+                        </div>
+                    </div>
+                </section>
+            </section> <!-- .wrapper ended -->
+        </section> <!-- #each-event ended -->
+
+        <script>
+            function toggleMenu() {
+                var navMenu = document.getElementById('navMenu');
+                var burgerMenu = document.querySelector('.burger-menu');
+        
+                navMenu.classList.toggle('show');
+                burgerMenu.classList.toggle('cross');
+            }
+        </script>
+    </body>
+</html>
